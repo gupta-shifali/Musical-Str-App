@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Music Vibes</string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="settings">Settings</string>
+    <string name="desc">Wallpaper of App</string>
+
+    <string name="now_playing_desc">This activity displays the song which is playing presently.
+        Here, we also have the option to play, pause, forward, rewind the song.</string>
+
+    <string name="playlist_desc">This activity displays the playlist of the songs. There can be a number of playlists.</string>
+
+    <string name="albums_desc">This activity display the various albums of the songs.
+        By clicking on the album, we can have the songs associated to that album.</string>
+
+    <string name="songs_desc">This activity display the number of songs we are having on our device.</string>
+
+    <string name="settings_desc">This activity displays the settings of the app.
+        We can change settings from here, like Equilizer settings etc.</string>
+
+    <string name="back">Back</string>
+
+</resources>
