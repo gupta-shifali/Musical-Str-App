@@ -15,7 +15,7 @@ public class NowPlayingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_settings);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_now_playing);
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override

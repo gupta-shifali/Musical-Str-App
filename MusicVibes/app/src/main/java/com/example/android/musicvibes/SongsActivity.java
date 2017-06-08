@@ -15,7 +15,7 @@ public class SongsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_settings);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_songs);
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
