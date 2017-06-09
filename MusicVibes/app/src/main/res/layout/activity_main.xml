@@ -5,54 +5,46 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/desc"
-            android:scaleType="fitStart"
-            android:src="@drawable/musical_notes" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/playing"
-            style="@style/text_style"
-            android:layout_centerInParent="true"
-            android:fontFamily="cursive"
-            android:text="@string/now_playing" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:contentDescription="@string/desc"
+                android:scaleType="centerCrop"
+                android:src="@drawable/musical_notes" />
 
-        <TextView
-            android:id="@+id/playlists"
-            style="@style/text_style"
-            android:layout_below="@id/playing"
-            android:fontFamily="cursive"
-            android:text="@string/playlists" />
+            <TextView
+                android:id="@+id/playing"
+                style="@style/text_style"
+                android:text="@string/now_playing" />
 
-        <TextView
-            android:id="@+id/albums"
-            style="@style/text_style"
-            android:layout_below="@id/playlists"
-            android:fontFamily="cursive"
-            android:text="@string/albums" />
+            <TextView
+                android:id="@+id/playlists"
+                style="@style/text_style"
+                android:text="@string/playlists" />
 
-        <TextView
-            android:id="@+id/songs"
-            style="@style/text_style"
-            android:layout_below="@id/albums"
-            android:fontFamily="cursive"
-            android:text="@string/songs" />
+            <TextView
+                android:id="@+id/albums"
+                style="@style/text_style"
+                android:text="@string/albums" />
 
-        <TextView
-            android:id="@+id/settings"
-            style="@style/text_style"
-            android:layout_below="@id/songs"
-            android:fontFamily="cursive"
-            android:text="@string/settings" />
+            <TextView
+                android:id="@+id/songs"
+                style="@style/text_style"
+                android:text="@string/songs" />
 
-    </RelativeLayout>
-</ScrollView>
+            <TextView
+                android:id="@+id/settings"
+                style="@style/text_style"
+                android:text="@string/settings" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </layout>
